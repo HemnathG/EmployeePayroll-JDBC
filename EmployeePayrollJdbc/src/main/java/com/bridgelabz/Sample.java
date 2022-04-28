@@ -2,8 +2,8 @@ package com.bridgelabz;
 
 import java.sql.*;
 
-public class EmpPayrollJdbc {
-    public static void main(String[] args) {
+public class Sample {
+public static void main(String[] args) {
 
         String jdbcUrl = "jdbc:mysql://localhost:3306/employee_payroll_service?useSSL=false";
         String userName = "root";
@@ -41,7 +41,6 @@ public class EmpPayrollJdbc {
             e.printStackTrace();
 
         }
-
 
     }
 }
